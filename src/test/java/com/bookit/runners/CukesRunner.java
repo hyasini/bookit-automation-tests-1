@@ -7,12 +7,14 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class) 
 @CucumberOptions(
-		tags= "@account",
+		tags= "@temp",
 		features = "src/test/resources/features",
 		glue = "com/bookit/step_definitions",
 		dryRun = false,
+		monochrome = false,
 		plugin = {
-				"json:target/cucumber.json"
+				"json:target/cucumber.json",
+				"pretty"
 		}
 		
 		)

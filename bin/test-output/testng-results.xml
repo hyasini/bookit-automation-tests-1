@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="5" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="117" started-at="2019-01-08T03:33:40Z" finished-at="2019-01-08T03:33:40Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="117" started-at="2019-01-08T03:33:40Z" finished-at="2019-01-08T03:33:40Z">
+      <class name="com.bookit.tests.JDBCTests">
+        <test-method status="PASS" signature="JDBCMetadata()[pri:0, instance:com.bookit.tests.JDBCTests@6a4f787b]" name="JDBCMetadata" duration-ms="102" started-at="2019-01-08T03:33:40Z" finished-at="2019-01-08T03:33:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JDBCMetadata -->
+      </class> <!-- com.bookit.tests.JDBCTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
